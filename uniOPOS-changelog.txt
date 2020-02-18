@@ -1,0 +1,104 @@
+## [uniOPOS](http://www.maravento.com)
+
+**uniOPOS** it is a preconfigured installation package of UniCenta/Wampserver for Points of Sales (POS/ERP Open Source)
+
+**uniOPOS** es un paquete de instalación preconfigurado de UniCenta/Wampserver para Puntos de Ventas (POS/ERP Open Source)
+
+[![Image](https://4.bp.blogspot.com/-I60lcdWHZfk/WXHzBV95bSI/AAAAAAAADVA/H4_pxdFjRBMLZtGCdYhDrqRXK4NHFOCEwCLcBGAs/s320/uniOPOS.png)](http://www.maravento.com/)
+
+### DATA SHEET
+---
+
+File: uniOPOS.exe (.zip)
+Version: 1.0
+OS: Windows 7/8/10 x64
+
+
+### DOWNLOAD
+---
+
+https://gitlab.com/maravento/uniopos/raw/master/uniOPOS.zip
+
+### HOW TO USE
+---
+
+Disable your Antivirus, Antimalware, SmartScreen or any other security solution in your Operating System, close all windows and check the date and time of your PC is correct. Download uniOPOS.exe (.zip), unzip it to your desktop, execute it with double click (accept privileged execution) and follow the instructions on the screen
+
+Desactive su Antivirus, Antimalware, SmartScreen o cualquier otra solución de seguridad en su Sistema Operativo, cierre todas las ventanas y verifique la fecha y hora de su PC sea la correcta. Descargue uniOPOS.exe (.zip), descomprimirlo en el escritorio, ejecutarlo con doble clic (acepte la ejecución con privilegios) y siga las instrucciones en pantalla
+
+### CONTENT
+---
+
+- [uniCenta OPOS v4.5](https://unicenta.com/download-files/installers/)
+- [Wampserver 3.1.9 64 bit x86 - Apache 2.4.39 - PHP 5.6.40/7.0.33/7.1.28/7.2.18/7.3.5 - MySQL 5.7.26 - MariaDB 10.3.14](http://wampserver.aviatechno.net/?lang=en)
+
+### DEPENDENCIES
+---
+
+- [WinExternal (Java, Visual C++, Net Framework, etc)](https://gihub.com/maravento/winexternal)
+
+### IMPORTANT BEFORE USE
+---
+
+uniOPOS can eliminate previous versions of its components, so it is recommended to backup before using it (Use [trekDB](https://github.com/maravento/trekdb) or any other tool of your choice)
+
+uniOPOS puede eliminar versiones previas de sus componentes, por tanto se recomienda hacer Backup antes de usarlo (Use [trekDB](https://github.com/maravento/trekdb) o cualquier otra herramienta de su preferencia)
+
+### CHANGELOG
+
+2019.05.16
+Added: Wampserver 3.1.9 64 bit x64 - Apache 2.4.39 - PHP 5.6.40/7.0.33/7.1.28/7.2.18/7.3.5 - MySQL 5.7.26 - MariaDB 10.3.14
+
+2019.05.01
+Added: mysql workbench community 8.0.16
+Fixed: BUGS and Links
+
+2019.02.26
+Update: Wampserver 3.1.7 64 bit x64 - Apache 2.4.37 - PHP 5.6.40/7.0.33/7.1.26/7.2.14/7.3.1 - MySQL 5.7.24 - MariaDB 10.3.12
+Fix:  Only x64
+
+2018.12.28
+Update: Wampserver 3.1.4 64 bit x64 - Apache 2.4.35 - PHP 5.6.38/7.0.32/7.1.22/7.2.10 - MySQL 5.7.23 - MariaDB 10.3.9
+Fix:  Only x64
+
+2018.01.18
+Update: Unicenta v4.5
+
+2017.11.01
+Update: Unicenta v4.4.2
+Update: wampserver 3.1.0
+
+2017.10.25
+Update: Unicenta v4.3.2
+Fixed: BUGS and Links
+
+2017.10.12
+Release day
+Added: Unicenta 4.3
+Added: wampserver 3.0.6
+
+### CONTRIBUCIONES / CONTRIBUTIONS
+---
+
+Agradecemos a todos los que han contribuido con este proyecto / We thank all those who contributed to this project.
+
+### LICENCIA / LICENCE
+---
+
+#####  Public
+
+[![GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl.txt)
+
+[![CreativeCommons](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+[maravento.com](http://www.maravento.com) is licensed under a [Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+#####  Copyright (To some programs used to build WinExternal)
+
+[Jpsoft](https://jpsoft.com/), [SteelWerX](https://fstaal01.home.xs4all.nl/swreg-us.html), [Microsoft](https://www.microsoft.com/), [74cz](http://74.cz/es/make-sfx/index.php), [Resource Hacker](http://www.angusj.com/resourcehacker/), [7zSFX Builder](https://sourceforge.net/projects/s-zipsfxbuilder/)
+
+© 2019 [Maravento Studio](http://www.maravento.com)
+
+### EXENCION DE RESPONSABILIDAD / DISCLAIMER
+---
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
