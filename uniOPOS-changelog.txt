@@ -1,8 +1,8 @@
 ## [uniOPOS](http://www.maravento.com)
 
-**uniOPOS** it is a preconfigured installation package of UniCenta/Wampserver for Points of Sales (POS/ERP Open Source)
+**uniOPOS** it is a preconfigured installation package of uniCenta OPOS and Wampserver for Points of Sales (POS/ERP Open Source)
 
-**uniOPOS** es un paquete de instalación preconfigurado de UniCenta/Wampserver para Puntos de Ventas (POS/ERP Open Source)
+**uniOPOS** es un paquete de instalación preconfigurado de uniCenta OPOS y Wampserver para Puntos de Ventas (POS/ERP Open Source)
 
 [![Image](https://4.bp.blogspot.com/-I60lcdWHZfk/WXHzBV95bSI/AAAAAAAADVA/H4_pxdFjRBMLZtGCdYhDrqRXK4NHFOCEwCLcBGAs/s320/uniOPOS.png)](http://www.maravento.com/)
 
@@ -11,13 +11,7 @@
 
 File: uniOPOS.exe (.zip)
 Version: 1.0
-OS: Windows 7/8/10 x64
-
-
-### DOWNLOAD
----
-
-https://gitlab.com/maravento/uniopos/raw/master/uniOPOS.zip
+OS: Windows 7/8/10 x86 x64
 
 ### HOW TO USE
 ---
@@ -29,29 +23,44 @@ Desactive su Antivirus, Antimalware, SmartScreen o cualquier otra solución de se
 ### CONTENT
 ---
 
-- [uniCenta OPOS v4.5](https://unicenta.com/download-files/installers/)
-- [Wampserver 3.1.9 64 bit x86 - Apache 2.4.39 - PHP 5.6.40/7.0.33/7.1.28/7.2.18/7.3.5 - MySQL 5.7.26 - MariaDB 10.3.14](http://wampserver.aviatechno.net/?lang=en)
+- [uniCenta OPOS 4.6](ftp://197.155.77.8/sourceforge/u/un/unicentaopos/releases/windows/)
+- [Wampserver 3.1.9](http://wampserver.aviatechno.net/?lang=en)
+- [MySQL Workbench Community 8.0.19](https://dev.mysql.com/downloads/workbench/)
 
 ### DEPENDENCIES
 ---
 
-- [WinExternal (Java, Visual C++, Net Framework, etc)](https://gihub.com/maravento/winexternal)
+- [WinExternal](https://github.com/maravento/winexternal)
+- [trekDB](https://github.com/maravento/trekdb)
 
 ### IMPORTANT BEFORE USE
 ---
 
-uniOPOS can eliminate previous versions of its components, so it is recommended to backup before using it (Use [trekDB](https://github.com/maravento/trekdb) or any other tool of your choice)
+- uniOPOS can eliminate previous versions of its components, so it is recommended to backup before using it / uniOPOS puede eliminar versiones previas de sus componentes, por tanto se recomienda hacer Backup antes de usarlo
+- [uniCenta oPOS v4 only uses MySQL. MySQL version 5.7 is recommended](https://unicenta.com/pages/configure-unicenta-opos/). Wamserver installs MySQL and MariaDB. So, if you are going to work with MariaDB, check the Unicenta Configuration Panel and select the correct port / [uniCenta oPOS v4 solamente utiliza MySQL. MySQL version 5.7 es la recomendada](https://unicenta.com/pages/configure-unicenta-opos/) Wamserver instala MySQL y MariaDB. Entonces, si va a trabajar con MariaDB, verifique el Panel de configuración de Unicenta y seleccione el puerto correcto
+```
+jdbc:mysql://localhost:3306/
+```
+And edit **.sql** file and replace the line / Y edite el archivo **.sql** y reemplace la línea
 
-uniOPOS puede eliminar versiones previas de sus componentes, por tanto se recomienda hacer Backup antes de usarlo (Use [trekDB](https://github.com/maravento/trekdb) o cualquier otra herramienta de su preferencia)
-
+```
+ROW_FORMAT=COMPACT;
+```
+by / por
+```
+ROW_FORMAT=DYNAMIC;
+```
 ### CHANGELOG
+
+2020.03.02
+Added: Wampserver 3.1.9 x86 x64 (Apache 2.4.39 - PHP 5.6.40/7.0.33/7.1.28/7.2.18/7.3.5 - MySQL 5.7.26 - MariaDB 10.3.14)
+Added: uniCenta OPOS 4.6
+Added: MySQL Workbench Community 8.0.19
+Fix:  x86 x64
 
 2019.05.16
 Added: Wampserver 3.1.9 64 bit x64 - Apache 2.4.39 - PHP 5.6.40/7.0.33/7.1.28/7.2.18/7.3.5 - MySQL 5.7.26 - MariaDB 10.3.14
-
-2019.05.01
-Added: mysql workbench community 8.0.16
-Fixed: BUGS and Links
+Fix:  Only x64
 
 2019.02.26
 Update: Wampserver 3.1.7 64 bit x64 - Apache 2.4.37 - PHP 5.6.40/7.0.33/7.1.26/7.2.14/7.3.1 - MySQL 5.7.24 - MariaDB 10.3.12
@@ -94,7 +103,7 @@ Agradecemos a todos los que han contribuido con este proyecto / We thank all tho
 
 #####  Copyright (To some programs used to build WinExternal)
 
-[Jpsoft](https://jpsoft.com/), [SteelWerX](https://fstaal01.home.xs4all.nl/swreg-us.html), [Microsoft](https://www.microsoft.com/), [74cz](http://74.cz/es/make-sfx/index.php), [Resource Hacker](http://www.angusj.com/resourcehacker/), [7zSFX Builder](https://sourceforge.net/projects/s-zipsfxbuilder/)
+[WinZenity](https://github.com/maravento/winzenity), [Jpsoft](https://jpsoft.com/), [SteelWerX](https://fstaal01.home.xs4all.nl/swreg-us.html), [Microsoft](https://www.microsoft.com/), [74cz](http://74.cz/es/make-sfx/index.php), [Resource Hacker](http://www.angusj.com/resourcehacker/), [7zSFX Builder](https://sourceforge.net/projects/s-zipsfxbuilder/)
 
 © 2019 [Maravento Studio](http://www.maravento.com)
 
