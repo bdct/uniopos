@@ -1,10 +1,8 @@
-## [uniOPOS](http://www.maravento.com)
+## [uniOPOS]
 
 **uniOPOS** it is a preconfigured installation package of uniCenta OPOS and Wampserver for Points of Sales (POS/ERP Open Source)
 
 **uniOPOS** es un paquete de instalación preconfigurado de uniCenta OPOS y Wampserver para Puntos de Ventas (POS/ERP Open Source)
-
-[![Image](https://4.bp.blogspot.com/-I60lcdWHZfk/WXHzBV95bSI/AAAAAAAADVA/H4_pxdFjRBMLZtGCdYhDrqRXK4NHFOCEwCLcBGAs/s320/uniOPOS.png)](http://www.maravento.com/)
 
 ### DATA SHEET
 ---
@@ -13,62 +11,32 @@ File: uniOPOS.exe (.zip)
 Version: 1.0
 OS: Windows 7/8/10 x86 x64
 
-### HOW TO USE
----
-
-Disable your Antivirus, Antimalware, SmartScreen or any other security solution in your Operating System, close all windows and check the date and time of your PC is correct. Download uniOPOS.exe (.zip), unzip it to your desktop, execute it with double click (accept privileged execution) and follow the instructions on the screen
-
-Desactive su Antivirus, Antimalware, SmartScreen o cualquier otra solución de seguridad en su Sistema Operativo, cierre todas las ventanas y verifique la fecha y hora de su PC sea la correcta. Descargue uniOPOS.exe (.zip), descomprimirlo en el escritorio, ejecutarlo con doble clic (acepte la ejecución con privilegios) y siga las instrucciones en pantalla
-
-### CONTENT
----
-
-- [uniCenta OPOS 4.6](ftp://197.155.77.8/sourceforge/u/un/unicentaopos/releases/windows/)
-- [Wampserver 3.1.9](http://wampserver.aviatechno.net/?lang=en)
-- [MySQL Workbench Community 8.0.19](https://dev.mysql.com/downloads/workbench/)
-
-### DEPENDENCIES
----
-
-- [WinExternal](https://github.com/maravento/winexternal)
-- [trekDB](https://github.com/maravento/trekdb)
-
-### IMPORTANT BEFORE USE
----
-
-- uniOPOS can eliminate previous versions of its components, so it is recommended to backup before using it / uniOPOS puede eliminar versiones previas de sus componentes, por tanto se recomienda hacer Backup antes de usarlo
-- [uniCenta oPOS v4 only uses MySQL. MySQL version 5.7 is recommended](https://unicenta.com/pages/configure-unicenta-opos/). Wamserver installs MySQL and MariaDB. So, if you are going to work with MariaDB, check the Unicenta Configuration Panel and select the correct port / [uniCenta oPOS v4 solamente utiliza MySQL. MySQL version 5.7 es la recomendada](https://unicenta.com/pages/configure-unicenta-opos/) Wamserver instala MySQL y MariaDB. Entonces, si va a trabajar con MariaDB, verifique el Panel de configuración de Unicenta y seleccione el puerto correcto
-```
-jdbc:mysql://localhost:3306/
-```
-And edit **.sql** file and replace the line / Y edite el archivo **.sql** y reemplace la línea
-
-```
-ROW_FORMAT=COMPACT;
-```
-by / por
-```
-ROW_FORMAT=DYNAMIC;
-```
 ### CHANGELOG
 
-2020.03.02
+2020.03.05
+Added: MariaDB MariaDB 10.4.12 Stable x86 x64
+Added: dbeaver 7.0.0 x86 64
+Added: Language Eng/Spa
+Fixed: BUGS and Links
+
+2020.03.04
 Added: Wampserver 3.1.9 x86 x64 (Apache 2.4.39 - PHP 5.6.40/7.0.33/7.1.28/7.2.18/7.3.5 - MySQL 5.7.26 - MariaDB 10.3.14)
 Added: uniCenta OPOS 4.6
 Added: MySQL Workbench Community 8.0.19
-Fix:  x86 x64
+Added: MySQL 5.7.29
+Fixed: x86 x64
 
 2019.05.16
 Added: Wampserver 3.1.9 64 bit x64 - Apache 2.4.39 - PHP 5.6.40/7.0.33/7.1.28/7.2.18/7.3.5 - MySQL 5.7.26 - MariaDB 10.3.14
-Fix:  Only x64
+Fixed: Only x64
 
 2019.02.26
 Update: Wampserver 3.1.7 64 bit x64 - Apache 2.4.37 - PHP 5.6.40/7.0.33/7.1.26/7.2.14/7.3.1 - MySQL 5.7.24 - MariaDB 10.3.12
-Fix:  Only x64
+Fixed: Only x64
 
 2018.12.28
 Update: Wampserver 3.1.4 64 bit x64 - Apache 2.4.35 - PHP 5.6.38/7.0.32/7.1.22/7.2.10 - MySQL 5.7.23 - MariaDB 10.3.9
-Fix:  Only x64
+Fixed: Only x64
 
 2018.01.18
 Update: Unicenta v4.5
@@ -86,28 +54,9 @@ Release day
 Added: Unicenta 4.3
 Added: wampserver 3.0.6
 
-### CONTRIBUCIONES / CONTRIBUTIONS
----
+© 2020 [Maravento Studio](http://www.maravento.com)
 
-Agradecemos a todos los que han contribuido con este proyecto / We thank all those who contributed to this project.
-
-### LICENCIA / LICENCE
----
-
-#####  Public
-
-[![GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl.txt)
-
-[![CreativeCommons](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
-[maravento.com](http://www.maravento.com) is licensed under a [Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional License](http://creativecommons.org/licenses/by-sa/4.0/).
-
-#####  Copyright (To some programs used to build WinExternal)
-
-[WinZenity](https://github.com/maravento/winzenity), [Jpsoft](https://jpsoft.com/), [SteelWerX](https://fstaal01.home.xs4all.nl/swreg-us.html), [Microsoft](https://www.microsoft.com/), [74cz](http://74.cz/es/make-sfx/index.php), [Resource Hacker](http://www.angusj.com/resourcehacker/), [7zSFX Builder](https://sourceforge.net/projects/s-zipsfxbuilder/)
-
-© 2019 [Maravento Studio](http://www.maravento.com)
-
-### EXENCION DE RESPONSABILIDAD / DISCLAIMER
+### DISCLAIMER
 ---
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
