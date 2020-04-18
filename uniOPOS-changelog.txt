@@ -13,8 +13,12 @@ OS: Windows 7/8/10 x86 x64
 
 ### CHANGELOG
 
+2020.04.17
+Added: Wampserver 3.2.0 x86 x64 (Apache 2.4.41 - PHP 5.6.40/7.3.12/7.4.0 - MariaDB 10.4.10|10.3.20 - MySQL 5.7.28 Default|8.0.18)
+Fixed: BUGS and Links
+
 2020.03.05
-Added: MariaDB MariaDB 10.4.12 Stable x86 x64
+Added: MariaDB 10.4.12 Stable x86 x64
 Added: dbeaver 7.0.0 x86 64
 Added: Language Eng/Spa
 Fixed: BUGS and Links

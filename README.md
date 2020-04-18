@@ -1,4 +1,4 @@
-## [uniOPOS](http://www.maravento.com)
+## [uniOPOS](https://uniopos.com/)
 
 **uniOPOS** it is a preconfigured installation package of uniCenta OPOS for Points of Sales (POS/ERP Open Source)
 
@@ -11,7 +11,7 @@
 
 |File|Version|OS|Update|Size|language|
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[uniOPOS.exe (.zip)](http://pc.cd/0wditalK)|1.0|Windows 7/8/10 x86 x64|Mar 05/2020|1,6 GB|Eng/Spa|
+|[uniOPOS.exe (.zip)](http://pc.cd/0wditalK)|1.0|Windows 7/8/10 x86 x64|Abr 17/2020|1,9 GB|Eng/Spa|
 
 ### HOW TO USE
 ---
@@ -81,7 +81,7 @@ At the end of the installation of each package the following message will appear
 ##### Content
 
 - [uniCenta OPOS 4.6 (.exe)](https://unicenta.com/download-files/installers/)
-- [Wampserver 3.1.9 x86 x64 (.exe with content: Apache 2.4.39 - PHP 5.6.40/7.0.33/7.1.28/7.2.18/7.3.5 - MySQL 5.7.26 - MariaDB 10.3.14)](http://wampserver.aviatechno.net/?lang=en)
+- [Wampserver 3.2.0 x86 x64 (.exe with content: Apache 2.4.41 - PHP 5.6.40/7.3.12/7.4.0 - MariaDB 10.4.10|10.3.20 - MySQL 5.7.28 Default|8.0.18)](http://wampserver.aviatechno.net/?lang=en)
 
 ##### Important Before Use Unicenta OPOS + WampServer
 
@@ -112,6 +112,7 @@ We thank all those who contributed to this project / Agradecemos a todos los que
 Unicenta OPOS ([Community Version](https://ftp://197.155.77.8/sourceforge/u/un/unicentaopos/releases/windows/) and [Official version](https://unicenta.com/download-files/installers/)), [Wampserver](http://wampserver.aviatechno.net/?lang=en), [MySQL](https://dev.mysql.com/downloads/mysql/5.7.html#downloads/), [MariaDB](https://downloads.mariadb.org/mariadb/10.4.12/), [dbeaver](https://github.com/dbeaver/dbeaver/releases), [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 
 © 2020 [Maravento Studio](http://www.maravento.com)
+© 2020 [Uniopos](https://uniopos.com/)
 
 ### DISCLAIMER
 ---
