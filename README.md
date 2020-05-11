@@ -4,14 +4,14 @@
 
 **uniOPOS** es un paquete de instalación preconfigurado de uniCenta OPOS para Puntos de Ventas (POS/ERP Open Source)
 
-[![Image](https://4.bp.blogspot.com/-I60lcdWHZfk/WXHzBV95bSI/AAAAAAAADVA/H4_pxdFjRBMLZtGCdYhDrqRXK4NHFOCEwCLcBGAs/s320/uniOPOS.png)](http://www.maravento.com/)
+[![Image](https://4.bp.blogspot.com/-I60lcdWHZfk/WXHzBV95bSI/AAAAAAAADVA/H4_pxdFjRBMLZtGCdYhDrqRXK4NHFOCEwCLcBGAs/s320/uniOPOS.png)](https://www.maravento.com/)
 
 ### DATA SHEET
 ---
 
 |File|Version|OS|Update|Size|language|
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[uniOPOS.exe (.zip)](http://pc.cd/0wditalK)|1.0|Windows 7/8/10 x86 x64|Abr 17/2020|1,9 GB|Eng/Spa|
+|[uniOPOS.exe (.zip)](http://pc.cd/0wditalK)|1.0|Windows 7/8/10 x86 x64|May 08/2020|1,9 GB|Eng/Spa|
 
 ### HOW TO USE
 ---
@@ -26,7 +26,7 @@ Desactive su Antivirus, Antimalware, SmartScreen o cualquier otra solución de s
 - uniOPOS can eliminate previous versions of its components, so it is recommended to backup before using it / uniOPOS puede eliminar versiones previas de sus componentes, por tanto se recomienda hacer Backup antes de usarlo
 - According to the developers, [uniCenta oPOS v4 only uses MySQL. MySQL version 5.7 is recommended](https://unicenta.com/pages/configure-unicenta-opos/) / Según los desarrolladores, [uniCenta oPOS v4 solamente utiliza MySQL. MySQL version 5.7 es la recomendada](https://unicenta.com/pages/configure-unicenta-opos/)
 
-[![Image](https://1.bp.blogspot.com/-DpcvfI_5Eic/XmbIW9mnBBI/AAAAAAAALPo/jDlqzjbLqJodaECoIiHgx5P6n1V1Q7PsgCLcBGAsYHQ/s1600/unicenta.png)](http://www.maravento.com/)
+[![Image](https://1.bp.blogspot.com/-DpcvfI_5Eic/XmbIW9mnBBI/AAAAAAAALPo/jDlqzjbLqJodaECoIiHgx5P6n1V1Q7PsgCLcBGAsYHQ/s1600/unicenta.png)](https://www.maravento.com/)
 
 - If you are going to work with MariaDB instead of MySQL, it is recommended to verify Unicenta Configuration Panel and select the correct port `jdbc:mysql://localhost:3306/` and edit your `.sql` file and replace the line `ROW_FORMAT=COMPACT;` by `ROW_FORMAT=DYNAMIC;` / Si va a trabajar con MariaDB en lugar de MySQL, se recomienda verificar el Panel de configuración de Unicenta y seleccionar el puerto correcto `jdbc:mysql://localhost:3306/`, y edite su archivo `.sql` y reemplace la línea `ROW_FORMAT=COMPACT;` por `ROW_FORMAT=DYNAMIC;`
 
@@ -87,6 +87,7 @@ At the end of the installation of each package the following message will appear
 
 - If you select the Unicenta OPOS package + WampServer, keep in mind that installs MySQL (By default service start automatically) and MariaDB (By default service does not start automatically) / Si selecciona el paquete Unicenta OPOS + WampServer, tenga en cuenta que instala MySQL (Por defecto inicia automáticamente) y MariaDB (por defecto el servicio no inicia automáticamente)
 - Installation is done in **insecure mode**, so access to `root` account is **without a password** (you must create one) / La instalacion se realiza en **modo inseguro**, por tanto el acceso a la cuenta `root` es **sin contraseña** (deberá crear una)
+- Unicenta OPOS package + WampServer uses port 80 by default (for Apache/phpmyadmin). If you use IIS World Wide Web Publishing Service, this package will change the IIS service to "manual", to avoid conflicts. If you any other software that occupies port 80 you must stop it / Unicenta OPOS package + WampServer usa el puerto 80 por defecto (para Apache/phpmyadmin). Si usa el servicio de IIS World Wide Web Publishing, este paquete cambiará el servicio IIS a "manual", para evitar conflictos. Si usted algún otro software que ocupe el puerto 80 debe detenerlo.
 
 ### DEPENDENCIES
 ---
@@ -105,14 +106,13 @@ We thank all those who contributed to this project / Agradecemos a todos los que
 [![GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl.txt)
 
 [![CreativeCommons](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
-[maravento.com](http://www.maravento.com) is licensed under a [Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional License](http://creativecommons.org/licenses/by-sa/4.0/).
+[maravento.com](https://www.maravento.com) is licensed under a [Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 [WinZenity](https://github.com/maravento/winzenity), [Jpsoft](https://jpsoft.com/), [SteelWerX](https://fstaal01.home.xs4all.nl/swreg-us.html), [Microsoft](https://www.microsoft.com/), [74cz](http://74.cz/es/make-sfx/index.php), [Resource Hacker](http://www.angusj.com/resourcehacker/), [7zSFX Builder](https://sourceforge.net/projects/s-zipsfxbuilder/)
 
 Unicenta OPOS ([Community Version](https://ftp://197.155.77.8/sourceforge/u/un/unicentaopos/releases/windows/) and [Official version](https://unicenta.com/download-files/installers/)), [Wampserver](http://wampserver.aviatechno.net/?lang=en), [MySQL](https://dev.mysql.com/downloads/mysql/5.7.html#downloads/), [MariaDB](https://downloads.mariadb.org/mariadb/10.4.12/), [dbeaver](https://github.com/dbeaver/dbeaver/releases), [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 
-© 2020 [Maravento Studio](http://www.maravento.com)
-© 2020 [Uniopos](https://uniopos.com/)
+© 2020 [Maravento Studio](https://www.maravento.com), [Uniopos](https://uniopos.com/)
 
 ### DISCLAIMER
 ---
