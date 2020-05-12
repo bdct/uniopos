@@ -11,7 +11,7 @@
 
 |File|Version|OS|Update|Size|language|
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[uniOPOS.exe (.zip)](http://pc.cd/0wditalK)|1.0|Windows 7/8/10 x86 x64|May 08/2020|1,9 GB|Eng/Spa|
+|[uniOPOS.exe (.zip)](http://pc.cd/0wditalK)|1.0|Windows 7/8/10 x86 x64|May 12/2020|1,9 GB|Eng/Spa|
 
 ### HOW TO USE
 ---
@@ -49,8 +49,8 @@ At the end of the installation of each package the following message will appear
 ##### Content
 
 - [uniCenta OPOS 4.6 (.exe)](https://unicenta.com/download-files/installers/)
-- [MySQL 5.7.29 x86 x64 (.zip)](https://dev.mysql.com/downloads/mysql/5.7.html#downloads/)
-- [MySQL Workbench Community 8.0.19 (.msi)](https://dev.mysql.com/downloads/workbench/)
+- [MySQL 5.7.30 x86 x64 (.zip)](https://dev.mysql.com/downloads/mysql/5.7.html#downloads/)
+- [MySQL Workbench Community 8.0.20 (.msi)](https://dev.mysql.com/downloads/workbench/)
 
 ##### Important Before Use Unicenta OPOS + MySQL + WorkBench
 
@@ -66,7 +66,7 @@ At the end of the installation of each package the following message will appear
 
 - [uniCenta OPOS 4.6 (.exe)](https://unicenta.com/download-files/installers/)
 - [MariaDB 10.4.12 Stable x86 x64 (.zip)](https://downloads.mariadb.org/mariadb/10.4.12/)
-- [DBeaver ce 7.0.0 x86 64 (.exe)](https://github.com/dbeaver/dbeaver/releases)
+- [DBeaver ce 7.0.4 x86 64 (.exe)](https://github.com/dbeaver/dbeaver/releases)
 
 ##### Important Before Use Unicenta OPOS + MariaDB + DBeaver
 
@@ -87,7 +87,7 @@ At the end of the installation of each package the following message will appear
 
 - If you select the Unicenta OPOS package + WampServer, keep in mind that installs MySQL (By default service start automatically) and MariaDB (By default service does not start automatically) / Si selecciona el paquete Unicenta OPOS + WampServer, tenga en cuenta que instala MySQL (Por defecto inicia automáticamente) y MariaDB (por defecto el servicio no inicia automáticamente)
 - Installation is done in **insecure mode**, so access to `root` account is **without a password** (you must create one) / La instalacion se realiza en **modo inseguro**, por tanto el acceso a la cuenta `root` es **sin contraseña** (deberá crear una)
-- Unicenta OPOS package + WampServer uses port 80 by default (for Apache/phpmyadmin). If you use IIS World Wide Web Publishing Service, this package will change the IIS service to "manual", to avoid conflicts. If you any other software that occupies port 80 you must stop it / Unicenta OPOS package + WampServer usa el puerto 80 por defecto (para Apache/phpmyadmin). Si usa el servicio de IIS World Wide Web Publishing, este paquete cambiará el servicio IIS a "manual", para evitar conflictos. Si usted algún otro software que ocupe el puerto 80 debe detenerlo.
+- Unicenta OPOS package + WampServer uses port 80 by default for Apache/phpmyadmin, therefore it is recommended to release this port (Note: if you use the IIS World Wide Web Publishing service, installing this package will change the IIS service to " manual ", to avoid conflicts) / Unicenta OPOS package + WampServer usa el puerto 80 por defecto para Apache/phpmyadmin, por tanto se recomienda liberar este puerto (Nota: si usa el servicio de IIS World Wide Web Publishing, la instalación de este paquete cambiará el servicio IIS a "manual", para evitar conflictos).
 
 ### DEPENDENCIES
 ---

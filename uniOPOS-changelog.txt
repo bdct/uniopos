@@ -13,6 +13,12 @@ OS: Windows 7/8/10 x86 x64
 
 ### CHANGELOG
 
+2020.05.12
+Update: MySQL Workbench Community 8.0.20
+Update: MySQL 5.7.30
+Update: dbeaver 7.0.4
+Fixed: BUGS
+
 2020.05.08
 Fixed: BUGS
 close 80, 8080 and set manual World Wide Web service (affect phpmyadmin in unicenta-wampserver)
